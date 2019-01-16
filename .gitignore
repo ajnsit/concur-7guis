@@ -6,3 +6,8 @@ node_modules
 # Generated files
 .psci
 output
+.cache
+dist
+
+# OS Specific files
+.DS_Store

@@ -1,0 +1,25 @@
+{
+  "name": "concur-7guis",
+  "version": "0.1.0",
+  "description": "7GUIs implemented in Concur UI Framework",
+  "license": "MIT",
+  "repository": "ajnsit/concur-7guis",
+  "author": {
+    "name": "Anupam Jain",
+    "email": "ajnsit@gmail.com"
+  },
+  "files": [],
+  "scripts": {
+    "ps": "bower install && pulp build",
+    "build": "node_modules/.bin/parcel build index.html",
+    "start": "node_modules/.bin/parcel index.html",
+    "watch": "node_modules/.bin/parcel watch index.html"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
+}
